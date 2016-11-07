@@ -1,0 +1,23 @@
+.flat-container {
+  margin-bottom: 80px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.col-wrapper {
+  background-color: $gray-lighter;
+  padding: 20px;
+}
+
+.flat-container .col-md-5 {
+  margin-left: 70px;
+}
+
+.flat-container .btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.flat-container h2 {
+  margin: 0;
+}
