@@ -1,5 +1,5 @@
 #footer {
-  background-color: #333333;
+  background-color: $dark-brown;
   height: 150px;
   margin-top: 0;
   padding-left: 30px;
@@ -8,18 +8,18 @@
 #footer .fa {
   font-size: 40px;
   margin: 30px 30px;
-  color: rgb(200, 200, 200);
+  color: $gray-light;
   margin-bottom: 15px;
   transition: all 0.4s ease;
   text-decoration: none;
 }
 
 #footer .fa:hover {
-  color: #DBD2A5;
+  color: $light-yellow;
 }
 
 #footer p {
-  color: rgb(200, 200, 200);
+  color: $gray-light;
   margin-left: 30px;
   font-size: 13px;
 }

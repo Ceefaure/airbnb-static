@@ -1,9 +1,18 @@
 
     <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
       <div class="banner-content">
-        <h1>Some Stuff</h1>
-        <p>Very cool stuff, useful and smart</p>
-        <%= link_to "GET IT", "#", class: "btn btn-primary btn-lg" %>
+        <h1>Welcome Home</h1>
+        <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+        <form action="#" class="form-inline">
+          <input type="checkin" class="form-control" placeholder="checkin" class="input-lg">
+          <input type="checkout" class="form-control" placeholder="checkout" class="input-lg">
+          <select class="form-control">
+            <option value="1">1 guest</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+          </select>
+          <input type="submit" value="Search" class="btn btn-primary">
+        </form>
       </div>
     </div>
 
