@@ -8,3 +8,8 @@ class BuildCleaner < Middleman::Extension
 end
 
 ::Middleman::Extensions.register(:build_cleaner, BuildCleaner)
+
+
+
+
+
